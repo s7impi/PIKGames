@@ -13,11 +13,11 @@ boardgameApp.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
             when('/boardgames', {
-                templateUrl: 'partials/boardgame-list.html',
+                templateUrl: 'resources/partials/boardgame-list.html',
                 controller: 'BoardgameListCtrl'
             }).
             when('/boardgames/:boardgameId', {
-                templateUrl: 'partials/boardgame-detail.html',
+                templateUrl: 'resources/partials/boardgame-detail.html',
                 controller: 'BoardgameDetailCtrl'
             }).
             otherwise({
