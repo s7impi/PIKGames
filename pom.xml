@@ -32,6 +32,18 @@
 
     <profiles>
         <profile>
+            <id>windows</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                </os>
+            </activation>
+            <properties>
+                <glassfish.home.prefix>c:/</glassfish.home.prefix>
+                <glassfish.executables.suffix>.bat</glassfish.executables.suffix>
+            </properties>
+        </profile>
+        <profile>
             <id>unix</id>
             <activation>
                 <os>
