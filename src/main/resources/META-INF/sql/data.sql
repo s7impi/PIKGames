@@ -1,0 +1,1 @@
+INSERT INTO game VALUES ('neuroshima-hex-3.0', 'Neuroshima Hex 3.0', 'Neuroshima Hex!', 'Michał Oracz', 'Portal Games', '2006', '2-4', 'Neuroshima Hex! is a strategy game set in the post-apocalyptic world of Neuroshima, a Polish role-playing game.', '30 minutes', 'Science-fiction', 'Strategy game', '10 and up');
